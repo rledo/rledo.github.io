@@ -1,0 +1,30 @@
+body {
+  margin-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+#searchheader {
+  margin-bottom: 2rem;
+}
+
+.searchresults {
+  background-color: #686766;
+  color: #fff;
+  margin: 0 5rem 1rem 5rem;
+  padding: .5rem;
+}
+
+.searchresults:hover {
+border: solid 1px #CCC;
+    -moz-box-shadow: 1rem 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999; 
+ }
+
+#searchbox {
+  margin-top: 1rem;
+}
+
+.searchmatch {
+  font-weight: bolder;
+}

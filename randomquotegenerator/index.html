@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Generator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container text-center">
+  <h1>Random Quote Generator</h1>
+  <h2>By Richard Ledo</h2>
+</div>
+<div class="container" id="quoteDisplay">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 quote-box">
+      <p class="quotation-mark">
+        “
+      </p>
+      <blockquote class="quote-text" id="showQuote">
+      </blockquote>
+      <p class="quotation-mark text-right" style="margin-top:-65px">
+        ”
+      </p>
+      <div class="text-right author-text">
+        <p id="author"></p>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <p><button class="btn btn-primary btn-sm" onclick="randomQuote()">New Quote</button></p>
+    <div><a class="twitter-share-button" href=""></a></div>
+  </div>
+</div>
+
+<body onload="randomQuote()">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

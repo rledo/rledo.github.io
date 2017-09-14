@@ -1,0 +1,56 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #815fc0;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+#titlebar {
+  background-color: #7ea03f;
+  font-family: 'Baloo Tammudu', cursive;
+  padding-top:1em;
+}
+
+#twi-content {
+  background-color: #8f8f8f;
+  padding: 2rem;
+}
+
+#twi-content > a {
+  color:black;
+}
+
+.navbar {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: -1rem;
+}
+
+.streamers {
+  padding-top: 1.5rem;
+  background-color: #FFF;
+  border-radius: 5rem;
+  margin-bottom:1rem;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.userhover:hover {
+  background: #815fc0;
+  background: linear-gradient(to bottom right, #815fc0, #FFF);
+    background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+#footnote {
+  background-color:#FFF;
+}
+
+.row-flex, .row-flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
