@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Gloria+Hallelujah|Pacifico|Passion+One');
+
+body {
+  margin-top:2em;
+  font-family: 'Hind', sans-serif;
+  background-color: #BEEB9F;
+}
+
+.title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4em;
+}
+
+.subtitle {
+  font-family: 'Passion One', cursive;
+  font-size: 1.5em;
+  margin-bottom: -.45em;
+}
+
+.title {
+  text-align: center;
+}
+
+hr.style7 {
+	border-top: .5em double #FF6138;
+  align-content: center;
+}
